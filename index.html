@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css"
           integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous">
 </head>
-<body>
+<body id="home" data-spy="scroll" data-target=".navbar" data-offset="100">
 
 <!-- navbar -->
 <nav class="navbar navbar-dark bg-primary navbar-fixed-top">
@@ -50,7 +50,7 @@
 
 <div class="container p-t-2">
     <!-- about -->
-    <div class="row">
+    <div id="about" class="row">
         <div class="col-lg-4 push-lg-4">
             <h3 class="m-b-2">About Full Stack Conf</h3>
             <img class="m-b-1 img-fluid img-rounded hidden-xs-down" src="img/pdx.jpg" alt="Portland">
@@ -148,7 +148,7 @@
     [Speaker bios go here]
 
     <!-- schedule -->
-    <h1 class="display-4 text-xs-center m-y-3 text-muted">Schedule</h1>
+    <h1 id="schedule" class="display-4 text-xs-center m-y-3 text-muted">Schedule</h1>
     <ul class="list-group">
         <li class="list-group-item">
             <h4 class="list-group-item-heading">Keynote: Internet of Things<span class="label label-info label-pill pull-xs-right">9:00am</span></h4>
